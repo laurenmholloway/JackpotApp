@@ -5,6 +5,7 @@
     font-family: 'Bitter', serif;
     color:#E87E04;
     font-size: 30px;
+    margin-bottom: 0px;
 }
 .button {
     font-size: 20px;
@@ -47,4 +48,11 @@
     background-color:#E87E04;
     color:#ECF0F1;
     text-align:center;
+}
+.headType p{
+    margin-top:0px;
+    color:#ECF0F1;
+    background-color:#E87E04;
+    padding:5px;
+    text-align: center;
 }

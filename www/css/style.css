@@ -18,3 +18,33 @@
     color:#ECF0F1;
     font-size:25px;
 }
+.generator {
+    margin-top:25px;
+}
+ .circle {
+    border-color:#ECF0F1;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 50%;
+    display: inline-block;
+    margin:10px;
+    font-size: 30px;
+    padding:15px;
+    background-color:#ECF0F1;
+    color:#E87E04;
+    text-align:center;
+    
+}
+.specialCircle {
+    border-color:#E87E04;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    font-size: 30px;
+    padding:15px;
+    background-color:#E87E04;
+    color:#ECF0F1;
+    text-align:center;
+}

@@ -1,8 +1,11 @@
-<ons-page>
-        
-    <ons-toolbar>
-        <div class="center">Page2</div>
+<ons-page style="background-color:#22313F">
+    <ons-toolbar style="background-color:#ECF0F1">
+        <div class="left">
+                <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars" style="color:#E87E04"></ons-icon></ons-toolbar-button>
+        </div>
+        <div class="center heading">JACKPOT</div>
     </ons-toolbar>
-
-    <p>This is the Onsen Page Template.</p>
+    <div style="text-align: center">
+            <div><ons-button class="generator" onclick="app.slidingMenu.setMainPage('powerball.html', {closeMenu: true})" modifier="outline" class="button button--outline">Generate Numbers</ons-button></div>
+    </div>
 </ons-page>

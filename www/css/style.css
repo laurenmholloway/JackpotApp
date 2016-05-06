@@ -4,4 +4,17 @@
 .heading {
     font-family: 'Bitter', serif;
     color:#E87E04;
+    font-size: 30px;
+}
+.button {
+    font-size: 20px;
+    width:200px;
+    margin-bottom:20px;
+    color:#E87E04; 
+    border-color:#ECF0F1;
+}
+#instructions {
+    font-family: 'Bitter', serif;
+    color:#ECF0F1;
+    font-size:25px;
 }

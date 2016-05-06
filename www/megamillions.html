@@ -9,7 +9,22 @@
         <p>Mega Millions</p>
     </div>
     <div style="text-align: center">
-        <div><ons-button class="generator" onclick="app.slidingMenu.setMainPage('powerball.html', {closeMenu: true})" modifier="outline" class="button button--outline">Generate Numbers</ons-button></div>
-        
+        <div><ons-button class="generator" onclick="getMegaNums()" modifier="outline" class="button button--outline">Generate Numbers</ons-button></div>
     </div>
+    <p id="circleNums">
+    <div class="numbers">
+    <div style="text-align:center">
+        <p id="M1" class="circle">  </p>
+        <p id="M2" class="circle">  </p>
+    </div>
+    <div style="text-align:center">
+        <p id="M3" class="circle">  </p>
+        <p id="M4" class="circle">  </p>
+    </div>
+    <div style="text-align:center">
+        <p id="M5" class="circle">  </p>
+        <p id="M6" class="specialCircle">  </p>
+    </div>
+    </div>
+    </p>
 </ons-page>

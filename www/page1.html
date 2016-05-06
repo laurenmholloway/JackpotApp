@@ -1,15 +1,18 @@
 <ons-navigator>
-   <ons-page>
-        <ons-toolbar>
+   <ons-page style="background-color:#22313F">
+        <ons-toolbar style="background-color:#ECF0F1">
             <div class="left">
                 <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars" style="color:#E87E04"></ons-icon></ons-toolbar-button>
             </div>
             <div class="center heading">JACKPOT</div>
         </ons-toolbar>
 
-        <div style="text-align: center">
-            <h3>Choose a Drawing</h3>
-            
+        <div style="text-align: center; margin-top:100px">
+        <p id="instructions">Choose a Drawing</p>            
+            <div><ons-button onclick="app.slidingMenu.setMainPage('powerball.html', {closeMenu: true})" modifier="outline" class="button button--outline">Powerball</ons-button></div>
+            <div><ons-button onclick="app.slidingMenu.setMainPage('megamillions.html', {closeMenu: true})" modifier="outline" class="button button--outline">Mega Millions</ons-button></div>
+            <div><ons-button onclick="app.slidingMenu.setMainPage('pick3.html', {closeMenu: true})" modifier="outline" class="button button--outline">Pick 3</ons-button></div>
+            <div><ons-button onclick="app.slidingMenu.setMainPage('pick4.html', {closeMenu: true})" modifier="outline" class="button button--outline">Pick 4</ons-button></div>    
         </div>
     </ons-page>
 </ons-navigator>

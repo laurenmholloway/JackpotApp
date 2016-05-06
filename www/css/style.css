@@ -4,4 +4,55 @@
 .heading {
     font-family: 'Bitter', serif;
     color:#E87E04;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.button {
+    font-size: 20px;
+    width:70%;
+    margin-bottom:20px;
+    color:#E87E04; 
+    border-color:#ECF0F1;
+}
+#instructions {
+    font-family: 'Bitter', serif;
+    color:#ECF0F1;
+    font-size:25px;
+}
+.generator {
+    margin-top:25px;
+}
+ .circle {
+    border-color:#ECF0F1;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 50%;
+    display: inline-block;
+    margin:10px;
+    font-size: 30px;
+    padding:15px;
+    background-color:#ECF0F1;
+    color:#E87E04;
+    text-align:center;
+    
+}
+.specialCircle {
+    border-color:#E87E04;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    font-size: 30px;
+    padding:15px;
+    background-color:#E87E04;
+    color:#ECF0F1;
+    text-align:center;
+}
+.headType p{
+    margin-top:0px;
+    color:#ECF0F1;
+    background-color:#E87E04;
+    padding:5px;
+    text-align: center;
 }

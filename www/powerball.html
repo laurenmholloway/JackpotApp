@@ -1,0 +1,31 @@
+<ons-page style="background-color:#22313F">
+    <ons-toolbar style="background-color:#ECF0F1">
+        <div class="left">
+                <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars" style="color:#E87E04"></ons-icon></ons-toolbar-button>
+        </div>
+        <div class="center heading">JACKPOT</div>
+    </ons-toolbar>
+    <div class="headType">
+        <p>Powerball</p>
+    </div>
+    <div style="text-align: center">
+            <div><ons-button class="generator" onclick="getPBNums()" onclick="app.slidingMenu.setMainPage('powerball.html', {closeMenu: true})" modifier="outline" class="button button--outline">Generate Numbers</ons-button></div>
+            
+    </div>
+    <p id="circleNums">
+    <div class="numbers">
+    <div style="text-align:center">
+        <p id="PB1" class="circle">  </p>
+        <p id="PB2" class="circle">  </p>
+    </div>
+    <div style="text-align:center">
+        <p id="PB3" class="circle">  </p>
+        <p id="PB4" class="circle">  </p>
+    </div>
+    <div style="text-align:center">
+        <p id="PB5" class="circle">  </p>
+        <p id="PB6" class="specialCircle">  </p>
+    </div>
+    </div>
+    </p>
+</ons-page>

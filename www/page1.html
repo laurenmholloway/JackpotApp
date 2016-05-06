@@ -8,13 +8,11 @@
         </ons-toolbar>
 
         <div style="text-align: center; margin-top:100px">
-        <p id="instructions">Choose a Drawing</p>
-            
-            <a href="page2.html"><ons-button modifier="outline" class="button button--outline">Powerball</ons-button></a>
-            <div><ons-button modifier="outline" class="button button--outline">Mega Millions</ons-button></div>
-            <div><ons-button modifier="outline" class="button button--outline">Pick 3</ons-button></div>
-            <div><ons-button modifier="outline" class="button button--outline">Pick 4</ons-button></div>
-            
+        <p id="instructions">Choose a Drawing</p>            
+            <div><ons-button onclick="app.slidingMenu.setMainPage('powerball.html', {closeMenu: true})" modifier="outline" class="button button--outline">Powerball</ons-button></div>
+            <div><ons-button onclick="app.slidingMenu.setMainPage('megamillions.html', {closeMenu: true})" modifier="outline" class="button button--outline">Mega Millions</ons-button></div>
+            <div><ons-button onclick="app.slidingMenu.setMainPage('pick3.html', {closeMenu: true})" modifier="outline" class="button button--outline">Pick 3</ons-button></div>
+            <div><ons-button onclick="app.slidingMenu.setMainPage('pick4.html', {closeMenu: true})" modifier="outline" class="button button--outline">Pick 4</ons-button></div>    
         </div>
     </ons-page>
 </ons-navigator>
